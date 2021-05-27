@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gonzalez.jesus.finanzaspersonales" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinanzasPersonales" >
+        <activity android:name=".TarjetaRegistro" >
+        </activity>
+        <activity android:name=".PerfilProgreso" />
+        <activity android:name=".TarjetasView" />
+        <activity android:name=".EmailLogin" />
+        <activity android:name=".Egresar" />
+        <activity android:name=".FinanzasView" />
+        <activity android:name=".Ingresar" />
+        <activity android:name=".PrincipalSaludo" />
+        <activity android:name=".BienvenidaC" />
+        <activity android:name=".BienvenidaB" />
+        <activity android:name=".Recuperacion" />
+        <activity android:name=".Pincipal" />
+        <activity android:name=".CrearCuenta" />
+        <activity android:name=".Motivacion2" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Motivacion" />
+        <activity android:name=".MiembroPro" />
+        <activity android:name=".Configuracion" />
+        <activity android:name=".ConfiguracionPerfil" />
+        <activity android:name=".BienvenidaA" />
+        <activity android:name=".Perfil" />
+        <activity android:name=".SincronizarTarjeta" />
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
