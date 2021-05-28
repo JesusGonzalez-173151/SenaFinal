@@ -23,6 +23,11 @@ class Pincipal : AppCompatActivity() {
         //Conexion al ususarioGmail
         usuario = FirebaseAuth.getInstance()
 
+        btn_config.setOnClickListener {
+            val intent: Intent = Intent(this, ConfiguracionPerfil::class.java)
+            startActivity(intent)
+        }
+
         btn_ingresos.setOnClickListener {
             val intent: Intent = Intent(this, Ingresar::class.java)
             startActivity(intent)
